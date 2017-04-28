@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>qBadges</title>
+		<link rel="stylesheet" href="styleLk.css">
+	</head>
+	<body>
+		<header class="header">
+			<img src="img/logo/logo.png">
+			<h1>qBadges</h1>
+		</header>
+		<hr noshade>
+		<section id="data" class="room">
+			<h2>Личные данные:</h2><br>
+			<p>Фамилия:</p>
+			<input type='text' size="19" name="<?=$data['surname']?>">
+			<p>Имя:</p>
+			<input type='text' size="19" name="<?=$data['name']?>">
+			<p>Отчество:</p>
+			<input type='text' size="19" name="<?=$data['middleName']?>">
+			<p>Организация:</p>
+			<input type='text' size="19" name="<?=$data['organization']?>">
+			<p>Email:</p>
+			<input type='text' size="19" name="<?=$data['email']?>">
+			<p>Телефон:</p>
+			<input type='text' size="19" name="<?=$data['phone']?>">
+			<p>Пароль:</p>
+			<input type='text' size="19" name="<?=$data['password']?>"><br>
+			<a href="">Удалить аккаунт</a>
+		</section>
+		<hr noshade>
+		<section id="models">
+			<div class="model"></div>
+		</section>
+		<footer>
+			
+		</footer>
+	</body>
+</html>
