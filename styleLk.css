@@ -45,38 +45,38 @@ section+hr
 
 .data
 {
-	flex-direction: column;
-	flex-wrap: wrap;
 	width: 300px;
 	height: auto;
+	justify-content: space-between;
+	text-align: right;
 }
 
 .data h2
 {
 	text-align: center;
 	display: block;
+	margin: 0 auto;
+	width: 100%;
 }
 
-.data p
+.data label
 {
 	font-size: 19px;
 }
 
 .data input
 {
-	display: flex;
-	text-align: left;
 	width: 150px;
 }
 
-.data p+input
+.data label+input
 {
-	display: inline-block;
+	justify-content: space-between;
 }
 
 .data a
 {
-	position: relative;
+	text-align: center;
 	color: #000;
 }
 
