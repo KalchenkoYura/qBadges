@@ -1,3 +1,9 @@
+@font-face
+{
+	font-family: 'Festus';
+	src: url('font/festus.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +15,7 @@ body
 	width: 100%;
 	display: inline-flex;
 	flex-wrap: wrap;
+	font-family: Festus;
 }
 
 .header
@@ -48,14 +55,12 @@ section+hr
 	width: 300px;
 	height: auto;
 	justify-content: space-between;
-	text-align: right;
 }
 
 .data h2
 {
 	text-align: center;
 	display: block;
-	margin: 0 auto;
 	width: 100%;
 }
 
@@ -66,17 +71,21 @@ section+hr
 
 .data input
 {
+	margin: 0 5px;
+	float: right;
 	width: 150px;
 }
 
-.data label+input
-{
-	justify-content: space-between;
-}
-
-.data a
+p
 {
 	text-align: center;
+}
+
+#delete
+{
+	margin-top:64vh;
+	float: none;
+	height: 20px;
 	color: #000;
 }
 
@@ -89,6 +98,7 @@ section+hr
 
 .models h2
 {
+	color: #000;
 	text-align: center;
 	display: block;
 }
