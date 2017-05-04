@@ -13,13 +13,6 @@
     <title>qBadge!</title>
     <link rel="stylesheet" href="main.css">
     <link rel='stylesheet' href='liquidcarousel.css'>
-    <script src="jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.liquidcarousel.pack.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#liquid').liquidcarousel({height: 160});
-        });
-    </script>
 </head>
 <body>
 <header class="header">
@@ -54,8 +47,16 @@
         <span class="next"></span>
     </div>
 </section>
+
 <footer class="footer">
     <p>Copyright (c) 2017.</p>
 </footer>
+<script src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.liquidcarousel.pack.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#liquid').liquidcarousel({height: 160});
+    });
+</script>
 </body>
 </html>

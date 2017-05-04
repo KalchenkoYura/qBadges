@@ -12,12 +12,16 @@
 
 body {
     min-height: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+h2 {
+    text-align: center;
 }
 
 .header {
-    justify-content: space-between;
-    display: inline-flex;
-    width: 100%;
 
 }
 
@@ -27,18 +31,30 @@ body {
 }
 
 .header h1 {
+    display: block;
+    flex-grow: 2;
     text-align: center;
     font-size: 60px;
-    display: block;
     margin: 0 auto;
 }
 
 .header input {
+    display: block;
+    flex-grow: 1;
     align-items: flex-start;
     flex-direction: row-reverse;
     justify-content: flex-start;
+    width: auto;
+    height: 100%;
 }
 
 .footer p {
     text-align: center;
+}
+
+.header a {
+    display: block;
+    position: relative;
+    right: 20%;
+    margin-top: 2px;
 }
