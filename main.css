@@ -14,13 +14,16 @@ body {
     min-height: 100%;
 
     flex-wrap: wrap;
-    align-content: space-between;
+    align-content: space-around;
 }
 
 h2 {
     text-align: center;
 }
 
+header{
+    text-align: right;
+}
 .header div{
     display: flex;
     flex-direction: row;
