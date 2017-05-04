@@ -10,58 +10,87 @@
     padding: 0;
 }
 
-body {
-    min-height: 100%;
-
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-
-h2 {
-    text-align: center;
-}
-
-header{
-    text-align: right;
-}
-.header div{
+header {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.header img {
+header img {
     width: 46px;
     height: 64px;
 }
 
+header form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+header form input {
+    border-width: 0 0 1px 0;
+    /*border: 1px 1px 1px 1px solid black;*/
+    flex-basis: 50%;
+}
+
+header form button {
+    flex-basis: 50%;
+    background: none;
+    outline: none;
+    border: 0;
+}
+
+section {
+    display: flex;
+
+}
+
+/*body {*/
+/*min-height: 100%;*/
+
+/*flex-wrap: wrap;*/
+/*align-content: space-around;*/
+/*}*/
+
+/*h2 {*/
+/*text-align: center;*/
+/*}*/
+
+/*header div {*/
+
+/*display: flex;*/
+/*flex-direction: row;*/
+/*width: 100%;*/
+/*justify-content: space-around;*/
+/*text-align: right;*/
+/*}*/
+
 /*.header h1 {*/
-    /*display: block;*/
-    /*flex-grow: 2;*/
-    /*text-align: center;*/
-    /*font-size: 60px;*/
-    /*margin: 0 auto;*/
+/*display: block;*/
+/*flex-grow: 2;*/
+/*text-align: center;*/
+/*font-size: 60px;*/
+/*margin: 0 auto;*/
 /*}*/
 
 /*.header input {*/
 
-    /*display: block;*/
-    /*flex-grow: 1;*/
-    /*align-items: flex-start;*/
-    /*flex-direction: row-reverse;*/
-    /*justify-content: flex-start;*/
-    /*width: 15%;*/
-    /*height: 100%;*/
+/*display: block;*/
+/*flex-grow: 1;*/
+/*align-items: flex-start;*/
+/*flex-direction: row-reverse;*/
+/*justify-content: flex-start;*/
+/*width: 15%;*/
+/*height: 100%;*/
 /*}*/
 
 /*.footer p {*/
-    /*text-align: center;*/
+/*text-align: center;*/
 /*}*/
 
 /*.header a {*/
-    /*display: block;*/
-    /*position: relative;*/
-    /*right: 20%;*/
-    /*margin-top: 2px;*/
+/*display: block;*/
+/*position: relative;*/
+/*right: 20%;*/
+/*margin-top: 2px;*/
 /*}*/
