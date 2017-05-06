@@ -1,0 +1,30 @@
+.map
+{
+	display: block;
+	margin: auto;
+	height: 400px;
+	width: 400px;
+	display: inline-flex;
+}
+
+#map 
+{
+    width: 400px; height: 400px; padding: 0; margin: 0;
+}
+
+.adress
+{
+	width: 60%;
+}
+
+.adress p
+{
+	text-align: left;
+	width: 60%;
+	margin: auto;
+}
+
+.adress
+{
+	text-align: center;
+}
