@@ -1,20 +1,21 @@
-.map
-{
+	.map
+	{
 	display: flex;
 	margin: auto;
 	height: 82.5%;
 	width: 400px;
 	flex-direction: column;
-}
-
-#map 
-{
-
-    width: 400px; height: 400px; padding: 0; margin: auto;
-}
-
-button
-{
+	}
+	#map 
+	{
+	width: 400px;
+	height: 400px; 
+	padding: 0; 
+	margin: auto;
+	}
+	a
+	{
 	width: 100px;
 	margin: auto;
-}
+	color: #000;
+	}
